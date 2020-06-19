@@ -16,8 +16,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // 一个空的 set
-    NSSet *set = [NSSet set];
+    // 一个 set
+    NSMutableSet *set = [NSMutableSet set];
+    [set addObject: @"5"];
+    [set addObject: @"6"];
     
     // 放入 NSMtableDictionary，不 crash
     NSMutableDictionary *mDic = [NSMutableDictionary dictionary];
