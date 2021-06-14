@@ -1,0 +1,6 @@
+module Pods_ReplaykitExt {
+  umbrella header "Pods-ReplaykitExt-umbrella.h"
+
+  export *
+  module * { export * }
+}

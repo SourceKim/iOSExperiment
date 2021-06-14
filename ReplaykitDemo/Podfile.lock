@@ -1,0 +1,20 @@
+PODS:
+  - SKReplaykit/extension (1.0)
+  - SKReplaykit/main (1.0)
+  - SKReplaykit/shared (1.0)
+
+DEPENDENCIES:
+  - SKReplaykit/extension (from `./SKReplaykit/SKReplaykit.podspec`)
+  - SKReplaykit/main (from `./SKReplaykit/SKReplaykit.podspec`)
+  - SKReplaykit/shared (from `./SKReplaykit/SKReplaykit.podspec`)
+
+EXTERNAL SOURCES:
+  SKReplaykit:
+    :path: "./SKReplaykit/SKReplaykit.podspec"
+
+SPEC CHECKSUMS:
+  SKReplaykit: 7fdfc0bee8a4711afbe1e5447aa35494ebfde912
+
+PODFILE CHECKSUM: aeed83671c9ce4983b89adce07397619768da8c1
+
+COCOAPODS: 1.10.1

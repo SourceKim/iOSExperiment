@@ -1,0 +1,32 @@
+{
+  "name": "SKReplaykit",
+  "version": "1.0",
+  "homepage": "https://www.uiimage.com",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "kim": "18666269733@163.com"
+  },
+  "summary": "一个 Replaykit 的工具，仅使用 iOS12 以上的 api",
+  "source": {
+    "http": "https://www.uiimage.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "subspecs": [
+    {
+      "name": "shared",
+      "source_files": "shared/**"
+    },
+    {
+      "name": "main",
+      "source_files": "main/**"
+    },
+    {
+      "name": "extension",
+      "source_files": "extension/**"
+    }
+  ]
+}

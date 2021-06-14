@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A465D35770EB7186C0002C /* libPods-ReplaykitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98317ADC6F757735F0320C7A /* libPods-ReplaykitDemo.a */; };
+		184605E42677546000929DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184605E32677546000929DC7 /* AppDelegate.swift */; };
+		184605E62677546000929DC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184605E52677546000929DC7 /* SceneDelegate.swift */; };
+		184605E82677546000929DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184605E72677546000929DC7 /* ViewController.swift */; };
+		184605EB2677546000929DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184605E92677546000929DC7 /* Main.storyboard */; };
+		184605ED2677546200929DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184605EC2677546200929DC7 /* Assets.xcassets */; };
+		184605F02677546200929DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184605EE2677546200929DC7 /* LaunchScreen.storyboard */; };
+		184605FF2677572100929DC7 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184605FE2677572100929DC7 /* ReplayKit.framework */; };
+		184606022677572200929DC7 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184606012677572200929DC7 /* SampleHandler.swift */; };
+		184606092677572200929DC7 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184605FE2677572100929DC7 /* ReplayKit.framework */; };
+		1846060B2677572200929DC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1846060A2677572200929DC7 /* UIKit.framework */; };
+		1846060E2677572200929DC7 /* BroadcastSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846060D2677572200929DC7 /* BroadcastSetupViewController.swift */; };
+		184606122677572200929DC7 /* ReplaykitExtSetupUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 184606082677572200929DC7 /* ReplaykitExtSetupUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		184606152677572200929DC7 /* ReplaykitExt.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 184605FC2677572100929DC7 /* ReplaykitExt.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC7E0F4860491EFCC6E62FBE /* libPods-ReplaykitExt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2B26C79C685C5B65A52ACE /* libPods-ReplaykitExt.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184606102677572200929DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184605D82677545F00929DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184606072677572200929DC7;
+			remoteInfo = ReplaykitExtSetupUI;
+		};
+		184606132677572200929DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184605D82677545F00929DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184605FB2677572100929DC7;
+			remoteInfo = ReplaykitExt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1846061C2677572200929DC7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				184606152677572200929DC7 /* ReplaykitExt.appex in Embed App Extensions */,
+				184606122677572200929DC7 /* ReplaykitExtSetupUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		184605E02677545F00929DC7 /* ReplaykitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplaykitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184605E32677546000929DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184605E52677546000929DC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184605E72677546000929DC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184605EA2677546000929DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184605EC2677546200929DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184605EF2677546200929DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184605F12677546200929DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184605FC2677572100929DC7 /* ReplaykitExt.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ReplaykitExt.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		184605FE2677572100929DC7 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		184606012677572200929DC7 /* SampleHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHandler.swift; sourceTree = "<group>"; };
+		184606032677572200929DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184606082677572200929DC7 /* ReplaykitExtSetupUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ReplaykitExtSetupUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1846060A2677572200929DC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1846060D2677572200929DC7 /* BroadcastSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastSetupViewController.swift; sourceTree = "<group>"; };
+		1846060F2677572200929DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184606452677612700929DC7 /* ReplaykitDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReplaykitDemo.entitlements; sourceTree = "<group>"; };
+		184606462677613300929DC7 /* ReplaykitExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReplaykitExt.entitlements; sourceTree = "<group>"; };
+		3381E74B6250BEEFD7DE04F8 /* Pods-ReplaykitExt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplaykitExt.release.xcconfig"; path = "Target Support Files/Pods-ReplaykitExt/Pods-ReplaykitExt.release.xcconfig"; sourceTree = "<group>"; };
+		37B440ECBD11FD67B37B4259 /* Pods-ReplaykitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplaykitDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReplaykitDemo/Pods-ReplaykitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		98317ADC6F757735F0320C7A /* libPods-ReplaykitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReplaykitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6702B45D8F564D2532EE063 /* Pods-ReplaykitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplaykitDemo.release.xcconfig"; path = "Target Support Files/Pods-ReplaykitDemo/Pods-ReplaykitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DCB88743CEB9AE60DDFD671C /* Pods-ReplaykitExt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplaykitExt.debug.xcconfig"; path = "Target Support Files/Pods-ReplaykitExt/Pods-ReplaykitExt.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2B26C79C685C5B65A52ACE /* libPods-ReplaykitExt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReplaykitExt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184605DD2677545F00929DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A465D35770EB7186C0002C /* libPods-ReplaykitDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184605F92677572100929DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184605FF2677572100929DC7 /* ReplayKit.framework in Frameworks */,
+				CC7E0F4860491EFCC6E62FBE /* libPods-ReplaykitExt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184606052677572200929DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184606092677572200929DC7 /* ReplayKit.framework in Frameworks */,
+				1846060B2677572200929DC7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184605D72677545F00929DC7 = {
+			isa = PBXGroup;
+			children = (
+				184605E22677545F00929DC7 /* ReplaykitDemo */,
+				184606002677572200929DC7 /* ReplaykitExt */,
+				1846060C2677572200929DC7 /* ReplaykitExtSetupUI */,
+				184605FD2677572100929DC7 /* Frameworks */,
+				184605E12677545F00929DC7 /* Products */,
+				B1DA5CFDFBCFE5BB04A3F124 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		184605E12677545F00929DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184605E02677545F00929DC7 /* ReplaykitDemo.app */,
+				184605FC2677572100929DC7 /* ReplaykitExt.appex */,
+				184606082677572200929DC7 /* ReplaykitExtSetupUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184605E22677545F00929DC7 /* ReplaykitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				184606452677612700929DC7 /* ReplaykitDemo.entitlements */,
+				184605E32677546000929DC7 /* AppDelegate.swift */,
+				184605E52677546000929DC7 /* SceneDelegate.swift */,
+				184605E72677546000929DC7 /* ViewController.swift */,
+				184605E92677546000929DC7 /* Main.storyboard */,
+				184605EC2677546200929DC7 /* Assets.xcassets */,
+				184605EE2677546200929DC7 /* LaunchScreen.storyboard */,
+				184605F12677546200929DC7 /* Info.plist */,
+			);
+			path = ReplaykitDemo;
+			sourceTree = "<group>";
+		};
+		184605FD2677572100929DC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184605FE2677572100929DC7 /* ReplayKit.framework */,
+				1846060A2677572200929DC7 /* UIKit.framework */,
+				98317ADC6F757735F0320C7A /* libPods-ReplaykitDemo.a */,
+				FE2B26C79C685C5B65A52ACE /* libPods-ReplaykitExt.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		184606002677572200929DC7 /* ReplaykitExt */ = {
+			isa = PBXGroup;
+			children = (
+				184606462677613300929DC7 /* ReplaykitExt.entitlements */,
+				184606012677572200929DC7 /* SampleHandler.swift */,
+				184606032677572200929DC7 /* Info.plist */,
+			);
+			path = ReplaykitExt;
+			sourceTree = "<group>";
+		};
+		1846060C2677572200929DC7 /* ReplaykitExtSetupUI */ = {
+			isa = PBXGroup;
+			children = (
+				1846060D2677572200929DC7 /* BroadcastSetupViewController.swift */,
+				1846060F2677572200929DC7 /* Info.plist */,
+			);
+			path = ReplaykitExtSetupUI;
+			sourceTree = "<group>";
+		};
+		B1DA5CFDFBCFE5BB04A3F124 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37B440ECBD11FD67B37B4259 /* Pods-ReplaykitDemo.debug.xcconfig */,
+				D6702B45D8F564D2532EE063 /* Pods-ReplaykitDemo.release.xcconfig */,
+				DCB88743CEB9AE60DDFD671C /* Pods-ReplaykitExt.debug.xcconfig */,
+				3381E74B6250BEEFD7DE04F8 /* Pods-ReplaykitExt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184605DF2677545F00929DC7 /* ReplaykitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184605F42677546200929DC7 /* Build configuration list for PBXNativeTarget "ReplaykitDemo" */;
+			buildPhases = (
+				7AB457F7759B126C03F46F82 /* [CP] Check Pods Manifest.lock */,
+				184605DC2677545F00929DC7 /* Sources */,
+				184605DD2677545F00929DC7 /* Frameworks */,
+				184605DE2677545F00929DC7 /* Resources */,
+				1846061C2677572200929DC7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184606112677572200929DC7 /* PBXTargetDependency */,
+				184606142677572200929DC7 /* PBXTargetDependency */,
+			);
+			name = ReplaykitDemo;
+			productName = ReplaykitDemo;
+			productReference = 184605E02677545F00929DC7 /* ReplaykitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184605FB2677572100929DC7 /* ReplaykitExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184606192677572200929DC7 /* Build configuration list for PBXNativeTarget "ReplaykitExt" */;
+			buildPhases = (
+				FC839324D60ED685C1CBC0F1 /* [CP] Check Pods Manifest.lock */,
+				184605F82677572100929DC7 /* Sources */,
+				184605F92677572100929DC7 /* Frameworks */,
+				184605FA2677572100929DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplaykitExt;
+			productName = ReplaykitExt;
+			productReference = 184605FC2677572100929DC7 /* ReplaykitExt.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		184606072677572200929DC7 /* ReplaykitExtSetupUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184606162677572200929DC7 /* Build configuration list for PBXNativeTarget "ReplaykitExtSetupUI" */;
+			buildPhases = (
+				184606042677572200929DC7 /* Sources */,
+				184606052677572200929DC7 /* Frameworks */,
+				184606062677572200929DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReplaykitExtSetupUI;
+			productName = ReplaykitExtSetupUI;
+			productReference = 184606082677572200929DC7 /* ReplaykitExtSetupUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184605D82677545F00929DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					184605DF2677545F00929DC7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					184605FB2677572100929DC7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					184606072677572200929DC7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 184605DB2677545F00929DC7 /* Build configuration list for PBXProject "ReplaykitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184605D72677545F00929DC7;
+			productRefGroup = 184605E12677545F00929DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184605DF2677545F00929DC7 /* ReplaykitDemo */,
+				184605FB2677572100929DC7 /* ReplaykitExt */,
+				184606072677572200929DC7 /* ReplaykitExtSetupUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184605DE2677545F00929DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184605F02677546200929DC7 /* LaunchScreen.storyboard in Resources */,
+				184605ED2677546200929DC7 /* Assets.xcassets in Resources */,
+				184605EB2677546000929DC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184605FA2677572100929DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184606062677572200929DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AB457F7759B126C03F46F82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReplaykitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC839324D60ED685C1CBC0F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReplaykitExt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184605DC2677545F00929DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184605E82677546000929DC7 /* ViewController.swift in Sources */,
+				184605E42677546000929DC7 /* AppDelegate.swift in Sources */,
+				184605E62677546000929DC7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184605F82677572100929DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184606022677572200929DC7 /* SampleHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184606042677572200929DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1846060E2677572200929DC7 /* BroadcastSetupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184606112677572200929DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184606072677572200929DC7 /* ReplaykitExtSetupUI */;
+			targetProxy = 184606102677572200929DC7 /* PBXContainerItemProxy */;
+		};
+		184606142677572200929DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184605FB2677572100929DC7 /* ReplaykitExt */;
+			targetProxy = 184606132677572200929DC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184605E92677546000929DC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184605EA2677546000929DC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184605EE2677546200929DC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184605EF2677546200929DC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184605F22677546200929DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184605F32677546200929DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184605F52677546200929DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B440ECBD11FD67B37B4259 /* Pods-ReplaykitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReplaykitDemo/ReplaykitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9JFGX54T5;
+				INFOPLIST_FILE = ReplaykitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kedc.ReplaykitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184605F62677546200929DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6702B45D8F564D2532EE063 /* Pods-ReplaykitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ReplaykitDemo/ReplaykitDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9JFGX54T5;
+				INFOPLIST_FILE = ReplaykitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kedc.ReplaykitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184606172677572200929DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9JFGX54T5;
+				INFOPLIST_FILE = ReplaykitExtSetupUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kedc.ReplaykitDemo.ReplaykitExtSetupUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184606182677572200929DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9JFGX54T5;
+				INFOPLIST_FILE = ReplaykitExtSetupUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kedc.ReplaykitDemo.ReplaykitExtSetupUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1846061A2677572200929DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCB88743CEB9AE60DDFD671C /* Pods-ReplaykitExt.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ReplaykitExt/ReplaykitExt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9JFGX54T5;
+				INFOPLIST_FILE = ReplaykitExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kedc.ReplaykitDemo.ReplaykitExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1846061B2677572200929DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3381E74B6250BEEFD7DE04F8 /* Pods-ReplaykitExt.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ReplaykitExt/ReplaykitExt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9JFGX54T5;
+				INFOPLIST_FILE = ReplaykitExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kedc.ReplaykitDemo.ReplaykitExt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184605DB2677545F00929DC7 /* Build configuration list for PBXProject "ReplaykitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184605F22677546200929DC7 /* Debug */,
+				184605F32677546200929DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184605F42677546200929DC7 /* Build configuration list for PBXNativeTarget "ReplaykitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184605F52677546200929DC7 /* Debug */,
+				184605F62677546200929DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184606162677572200929DC7 /* Build configuration list for PBXNativeTarget "ReplaykitExtSetupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184606172677572200929DC7 /* Debug */,
+				184606182677572200929DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184606192677572200929DC7 /* Build configuration list for PBXNativeTarget "ReplaykitExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1846061A2677572200929DC7 /* Debug */,
+				1846061B2677572200929DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184605D82677545F00929DC7 /* Project object */;
+}

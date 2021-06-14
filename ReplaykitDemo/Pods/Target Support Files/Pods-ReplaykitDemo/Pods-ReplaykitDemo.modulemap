@@ -1,0 +1,6 @@
+module Pods_ReplaykitDemo {
+  umbrella header "Pods-ReplaykitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,7 @@
+module SKReplaykit {
+  umbrella header "SKReplaykit-extension-shared-umbrella.h"
+  exclude header "SKReplaykit-main-shared-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E48A795638023F0136D5FC9DE06FE1 /* SKReplaykit-main-shared-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 579264F154EAD9810015960D7BD9932C /* SKReplaykit-main-shared-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A07214825566ACF4091BD2098ADF282 /* SKReplaykit-main-shared-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D1BD82D4B448EDF1C648ACC9A2423C /* SKReplaykit-main-shared-dummy.m */; };
+		26CF0921D57200BB4FBB8E8FA3343A2D /* SKRSharedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D05AD4A1933C8BDDFEAD03445D1E08 /* SKRSharedInfo.swift */; };
+		3CCED7ABF518E73805A4CAFC225E5A99 /* SKRExtensionProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A15F97D0082E2BF8CB24DCBE3F09E9 /* SKRExtensionProcessor.swift */; };
+		5C5CC49A687CF829C98B3AF9D925509E /* SKReplaykit-extension-shared-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 692B80B8129099B05C6EBF949287FD9C /* SKReplaykit-extension-shared-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A7CA74F595B12B1F63C8A951EC23293 /* SKReplaykit-extension-shared-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB2702D3F1415E366FB3650D8441276 /* SKReplaykit-extension-shared-dummy.m */; };
+		8413F8E3B662C669F863C160A24AB6C8 /* SKRSharedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D05AD4A1933C8BDDFEAD03445D1E08 /* SKRSharedInfo.swift */; };
+		8793CDDB46AF4C02C731E08F91173D67 /* Pods-ReplaykitExt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A54EAC80E7B6D33333CEC07D1D39F66 /* Pods-ReplaykitExt-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A58035F92497F769C8AFD0B3D9AD8401 /* SKROutputHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A104DA2DDC106C772CD0F369F2404E8D /* SKROutputHandler.swift */; };
+		BD94D245EDF2325BF0738479D44D89EF /* Pods-ReplaykitExt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 696EA60ED35D6B915727D68D26A49EA9 /* Pods-ReplaykitExt-dummy.m */; };
+		D5A214845ADFF197D3547FED670C983A /* Pods-ReplaykitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A021CCDD484F38462F2882A5C2250BA /* Pods-ReplaykitDemo-dummy.m */; };
+		EABEFA44939043BEE4EEE18EBA0538D7 /* Pods-ReplaykitDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0FEE5DC538194E8D9DE635B11ADBDF /* Pods-ReplaykitDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0A692418915613E404AADB813702DA3 /* SKRWriteFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85847DE68F8895A90C31A161D9DD481F /* SKRWriteFileHandler.swift */; };
+		F9E53E6058F72A0D8293FD5793CED018 /* SKRMainProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8123F5D416CCAE6063B5C797F699D524 /* SKRMainProcessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2C246349AACD29AA9047F783254DD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5BB9858E7E97882D2040FCBD65A5CC;
+			remoteInfo = "SKReplaykit-extension-shared";
+		};
+		EC630CDE1D57B9B4D05B2EDF5C058EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F5043AAB27B92DE11CD846CB775E44;
+			remoteInfo = "SKReplaykit-main-shared";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049DDF2339E4535A71E3B36D1E6A9A52 /* SKReplaykit-main-shared.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SKReplaykit-main-shared.modulemap"; path = "../SKReplaykit-main-shared/SKReplaykit-main-shared.modulemap"; sourceTree = "<group>"; };
+		0D9FE539793ADEA0B82937F33C76CFBE /* Pods-ReplaykitExt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaykitExt.debug.xcconfig"; sourceTree = "<group>"; };
+		128CD81E42B3F1D999BAAC437D20F52D /* Pods-ReplaykitExt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReplaykitExt-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15C08ED278B6BDAC893AB95992735125 /* Pods-ReplaykitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReplaykitDemo.modulemap"; sourceTree = "<group>"; };
+		1F34160EE8D48AABB178247117088B20 /* Pods-ReplaykitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaykitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		392062D8B05C51F86EEBCCADDD7DAE50 /* Pods-ReplaykitExt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReplaykitExt.modulemap"; sourceTree = "<group>"; };
+		3E7F9FA79D2DE71E2D84CEBC8859BB66 /* Pods-ReplaykitExt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplaykitExt-acknowledgements.plist"; sourceTree = "<group>"; };
+		47A15F97D0082E2BF8CB24DCBE3F09E9 /* SKRExtensionProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKRExtensionProcessor.swift; path = extension/SKRExtensionProcessor.swift; sourceTree = "<group>"; };
+		4A021CCDD484F38462F2882A5C2250BA /* Pods-ReplaykitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReplaykitDemo-dummy.m"; sourceTree = "<group>"; };
+		4A0662B2251DFFAD489E5BE819D6402D /* SKReplaykit-main-shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SKReplaykit-main-shared.debug.xcconfig"; path = "../SKReplaykit-main-shared/SKReplaykit-main-shared.debug.xcconfig"; sourceTree = "<group>"; };
+		4B188E3A7C4372F5E8CFB42DF0B44F6D /* SKReplaykit-main-shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SKReplaykit-main-shared.release.xcconfig"; path = "../SKReplaykit-main-shared/SKReplaykit-main-shared.release.xcconfig"; sourceTree = "<group>"; };
+		4C0FEE5DC538194E8D9DE635B11ADBDF /* Pods-ReplaykitDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReplaykitDemo-umbrella.h"; sourceTree = "<group>"; };
+		579264F154EAD9810015960D7BD9932C /* SKReplaykit-main-shared-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKReplaykit-main-shared-umbrella.h"; path = "../SKReplaykit-main-shared/SKReplaykit-main-shared-umbrella.h"; sourceTree = "<group>"; };
+		5D8F8B7E8BC2E8E4CF94640728AD1134 /* SKReplaykit-extension-shared.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SKReplaykit-extension-shared.modulemap"; sourceTree = "<group>"; };
+		5DB2702D3F1415E366FB3650D8441276 /* SKReplaykit-extension-shared-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKReplaykit-extension-shared-dummy.m"; sourceTree = "<group>"; };
+		5E48D86AF9807CC53144CECF69C1A67F /* SKReplaykit-extension-shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SKReplaykit-extension-shared.debug.xcconfig"; sourceTree = "<group>"; };
+		692B80B8129099B05C6EBF949287FD9C /* SKReplaykit-extension-shared-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKReplaykit-extension-shared-umbrella.h"; sourceTree = "<group>"; };
+		696EA60ED35D6B915727D68D26A49EA9 /* Pods-ReplaykitExt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReplaykitExt-dummy.m"; sourceTree = "<group>"; };
+		6CB527B207AE72E5C53942467F903EAB /* SKReplaykit-extension-shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SKReplaykit-extension-shared.release.xcconfig"; sourceTree = "<group>"; };
+		799F7485B1CE0529367FCF6572ACC4C6 /* libSKReplaykit-extension-shared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libSKReplaykit-extension-shared.a"; path = "libSKReplaykit-extension-shared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8123F5D416CCAE6063B5C797F699D524 /* SKRMainProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKRMainProcessor.swift; path = main/SKRMainProcessor.swift; sourceTree = "<group>"; };
+		84B4F78D8B60CECB19E78990E141FB6C /* Pods-ReplaykitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplaykitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		85847DE68F8895A90C31A161D9DD481F /* SKRWriteFileHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKRWriteFileHandler.swift; path = extension/SKRWriteFileHandler.swift; sourceTree = "<group>"; };
+		8A54EAC80E7B6D33333CEC07D1D39F66 /* Pods-ReplaykitExt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReplaykitExt-umbrella.h"; sourceTree = "<group>"; };
+		926AD6C1A95EC8A6D5D9F7620FB91B37 /* SKReplaykit-main-shared-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKReplaykit-main-shared-prefix.pch"; path = "../SKReplaykit-main-shared/SKReplaykit-main-shared-prefix.pch"; sourceTree = "<group>"; };
+		92D1BD82D4B448EDF1C648ACC9A2423C /* SKReplaykit-main-shared-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SKReplaykit-main-shared-dummy.m"; path = "../SKReplaykit-main-shared/SKReplaykit-main-shared-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0E067FC782D8EA7B605508E8EB2BDB /* libPods-ReplaykitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReplaykitDemo.a"; path = "libPods-ReplaykitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1F0716D09F97966B9A3EAB04AC23F6 /* libPods-ReplaykitExt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ReplaykitExt.a"; path = "libPods-ReplaykitExt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB0314BD27024C0F3DBB5C6AE973E53 /* SKReplaykit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKReplaykit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A104DA2DDC106C772CD0F369F2404E8D /* SKROutputHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKROutputHandler.swift; path = extension/SKROutputHandler.swift; sourceTree = "<group>"; };
+		CE5461B234F4FC705D2FB4947F4EB1FD /* Pods-ReplaykitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReplaykitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0CB9CC1AF127F6E43C334DEAE4BEDF3 /* Pods-ReplaykitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaykitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D8F8721C5185647B5033FAAD05A321C5 /* SKReplaykit-extension-shared-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKReplaykit-extension-shared-prefix.pch"; sourceTree = "<group>"; };
+		E0518E2046C98DECE4FB8B0C1A4EAB75 /* Pods-ReplaykitExt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplaykitExt.release.xcconfig"; sourceTree = "<group>"; };
+		E2D05AD4A1933C8BDDFEAD03445D1E08 /* SKRSharedInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SKRSharedInfo.swift; path = shared/SKRSharedInfo.swift; sourceTree = "<group>"; };
+		E984831F5506F423DE0BD0F933D87FCC /* libSKReplaykit-main-shared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libSKReplaykit-main-shared.a"; path = "libSKReplaykit-main-shared.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823D129E62D191ED9680CDE2F0388821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD0966EEC4ED0B008392CFE12E0928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC6FCA3B9F495F497A7CE4EDEAAA3552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7F89511D7AE45E1C410862148BB64A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A4803F5C71A9E8F1BEB37F457A3646 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2B26D02E96F32D2699BD14C6BF096CA /* SKReplaykit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3E6AB2FD1DFE840E1A61162FED31DFC5 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				47A15F97D0082E2BF8CB24DCBE3F09E9 /* SKRExtensionProcessor.swift */,
+				A104DA2DDC106C772CD0F369F2404E8D /* SKROutputHandler.swift */,
+				85847DE68F8895A90C31A161D9DD481F /* SKRWriteFileHandler.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		48B03C82DF5D6DA5F937B106CC26A143 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D8F8B7E8BC2E8E4CF94640728AD1134 /* SKReplaykit-extension-shared.modulemap */,
+				5DB2702D3F1415E366FB3650D8441276 /* SKReplaykit-extension-shared-dummy.m */,
+				D8F8721C5185647B5033FAAD05A321C5 /* SKReplaykit-extension-shared-prefix.pch */,
+				692B80B8129099B05C6EBF949287FD9C /* SKReplaykit-extension-shared-umbrella.h */,
+				5E48D86AF9807CC53144CECF69C1A67F /* SKReplaykit-extension-shared.debug.xcconfig */,
+				6CB527B207AE72E5C53942467F903EAB /* SKReplaykit-extension-shared.release.xcconfig */,
+				049DDF2339E4535A71E3B36D1E6A9A52 /* SKReplaykit-main-shared.modulemap */,
+				92D1BD82D4B448EDF1C648ACC9A2423C /* SKReplaykit-main-shared-dummy.m */,
+				926AD6C1A95EC8A6D5D9F7620FB91B37 /* SKReplaykit-main-shared-prefix.pch */,
+				579264F154EAD9810015960D7BD9932C /* SKReplaykit-main-shared-umbrella.h */,
+				4A0662B2251DFFAD489E5BE819D6402D /* SKReplaykit-main-shared.debug.xcconfig */,
+				4B188E3A7C4372F5E8CFB42DF0B44F6D /* SKReplaykit-main-shared.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/SKReplaykit-extension-shared";
+			sourceTree = "<group>";
+		};
+		561652E6152E05E42E86A81815FF916D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0E067FC782D8EA7B605508E8EB2BDB /* libPods-ReplaykitDemo.a */,
+				9E1F0716D09F97966B9A3EAB04AC23F6 /* libPods-ReplaykitExt.a */,
+				799F7485B1CE0529367FCF6572ACC4C6 /* libSKReplaykit-extension-shared.a */,
+				E984831F5506F423DE0BD0F933D87FCC /* libSKReplaykit-main-shared.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B04C033623C039D21936F62BF16C580 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				E2D05AD4A1933C8BDDFEAD03445D1E08 /* SKRSharedInfo.swift */,
+			);
+			name = shared;
+			sourceTree = "<group>";
+		};
+		6DD0F4932751BEC34442BD53F919E857 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				8123F5D416CCAE6063B5C797F699D524 /* SKRMainProcessor.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		75FA6780F3B88D26A8BEB5AB17D7B989 /* Pods-ReplaykitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				15C08ED278B6BDAC893AB95992735125 /* Pods-ReplaykitDemo.modulemap */,
+				CE5461B234F4FC705D2FB4947F4EB1FD /* Pods-ReplaykitDemo-acknowledgements.markdown */,
+				84B4F78D8B60CECB19E78990E141FB6C /* Pods-ReplaykitDemo-acknowledgements.plist */,
+				4A021CCDD484F38462F2882A5C2250BA /* Pods-ReplaykitDemo-dummy.m */,
+				4C0FEE5DC538194E8D9DE635B11ADBDF /* Pods-ReplaykitDemo-umbrella.h */,
+				D0CB9CC1AF127F6E43C334DEAE4BEDF3 /* Pods-ReplaykitDemo.debug.xcconfig */,
+				1F34160EE8D48AABB178247117088B20 /* Pods-ReplaykitDemo.release.xcconfig */,
+			);
+			name = "Pods-ReplaykitDemo";
+			path = "Target Support Files/Pods-ReplaykitDemo";
+			sourceTree = "<group>";
+		};
+		9E5C905313EC996BB19CB3321CE7AF5F /* Pods-ReplaykitExt */ = {
+			isa = PBXGroup;
+			children = (
+				392062D8B05C51F86EEBCCADDD7DAE50 /* Pods-ReplaykitExt.modulemap */,
+				128CD81E42B3F1D999BAAC437D20F52D /* Pods-ReplaykitExt-acknowledgements.markdown */,
+				3E7F9FA79D2DE71E2D84CEBC8859BB66 /* Pods-ReplaykitExt-acknowledgements.plist */,
+				696EA60ED35D6B915727D68D26A49EA9 /* Pods-ReplaykitExt-dummy.m */,
+				8A54EAC80E7B6D33333CEC07D1D39F66 /* Pods-ReplaykitExt-umbrella.h */,
+				0D9FE539793ADEA0B82937F33C76CFBE /* Pods-ReplaykitExt.debug.xcconfig */,
+				E0518E2046C98DECE4FB8B0C1A4EAB75 /* Pods-ReplaykitExt.release.xcconfig */,
+			);
+			name = "Pods-ReplaykitExt";
+			path = "Target Support Files/Pods-ReplaykitExt";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				11A4803F5C71A9E8F1BEB37F457A3646 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				561652E6152E05E42E86A81815FF916D /* Products */,
+				EC676500ECC12E7222D5D1BDB0A11460 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2B26D02E96F32D2699BD14C6BF096CA /* SKReplaykit */ = {
+			isa = PBXGroup;
+			children = (
+				3E6AB2FD1DFE840E1A61162FED31DFC5 /* extension */,
+				6DD0F4932751BEC34442BD53F919E857 /* main */,
+				ECD38F39C80B34EE836134DD2F79242B /* Pod */,
+				5B04C033623C039D21936F62BF16C580 /* shared */,
+				48B03C82DF5D6DA5F937B106CC26A143 /* Support Files */,
+			);
+			name = SKReplaykit;
+			path = ../SKReplaykit;
+			sourceTree = "<group>";
+		};
+		EC676500ECC12E7222D5D1BDB0A11460 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75FA6780F3B88D26A8BEB5AB17D7B989 /* Pods-ReplaykitDemo */,
+				9E5C905313EC996BB19CB3321CE7AF5F /* Pods-ReplaykitExt */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ECD38F39C80B34EE836134DD2F79242B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9FB0314BD27024C0F3DBB5C6AE973E53 /* SKReplaykit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F89072FD38B69B65F0C1A27962EEBBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E48A795638023F0136D5FC9DE06FE1 /* SKReplaykit-main-shared-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43439BDB86B0EDE1EA06B8C6B2CA0FF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C5CC49A687CF829C98B3AF9D925509E /* SKReplaykit-extension-shared-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61066969355B4E0327E9CCC913861455 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8793CDDB46AF4C02C731E08F91173D67 /* Pods-ReplaykitExt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4C17130262D6D401058E07DCDCD9CF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABEFA44939043BEE4EEE18EBA0538D7 /* Pods-ReplaykitDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B5BB9858E7E97882D2040FCBD65A5CC /* SKReplaykit-extension-shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E25873CC00D246208F67554CD8A5E708 /* Build configuration list for PBXNativeTarget "SKReplaykit-extension-shared" */;
+			buildPhases = (
+				43439BDB86B0EDE1EA06B8C6B2CA0FF1 /* Headers */,
+				F94018CB4F53916C274F83861307C608 /* Sources */,
+				823D129E62D191ED9680CDE2F0388821 /* Frameworks */,
+				087C3BCD39D0BF58C3027C01EC4142D1 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKReplaykit-extension-shared";
+			productName = "SKReplaykit-extension-shared";
+			productReference = 799F7485B1CE0529367FCF6572ACC4C6 /* libSKReplaykit-extension-shared.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		59F5043AAB27B92DE11CD846CB775E44 /* SKReplaykit-main-shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082ADAF454D6ACE65CB46AEFEE6252D1 /* Build configuration list for PBXNativeTarget "SKReplaykit-main-shared" */;
+			buildPhases = (
+				0F89072FD38B69B65F0C1A27962EEBBE /* Headers */,
+				F7A197445886C448674BF841DC21AE8D /* Sources */,
+				D7F89511D7AE45E1C410862148BB64A4 /* Frameworks */,
+				3F762786EA508C3316D96AF375379580 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKReplaykit-main-shared";
+			productName = "SKReplaykit-main-shared";
+			productReference = E984831F5506F423DE0BD0F933D87FCC /* libSKReplaykit-main-shared.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DC16293362212257B16FCDBF2A4DA1B /* Pods-ReplaykitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17758A284456228303E28C6A1CF0E51 /* Build configuration list for PBXNativeTarget "Pods-ReplaykitDemo" */;
+			buildPhases = (
+				D4C17130262D6D401058E07DCDCD9CF2 /* Headers */,
+				A64BF3BF815ED2062FA3083C04E9CFBA /* Sources */,
+				8EBD0966EEC4ED0B008392CFE12E0928 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FDFAA5133A0E5D8EAB8E3B8D6B8454 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReplaykitDemo";
+			productName = "Pods-ReplaykitDemo";
+			productReference = 9E0E067FC782D8EA7B605508E8EB2BDB /* libPods-ReplaykitDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F83033F272E1C3D6C59286BAAF583375 /* Pods-ReplaykitExt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A5BE670E3019F01A9DC52D6D0E3B8AF /* Build configuration list for PBXNativeTarget "Pods-ReplaykitExt" */;
+			buildPhases = (
+				61066969355B4E0327E9CCC913861455 /* Headers */,
+				9A191BEA9672DE94E7DC9748522D8D67 /* Sources */,
+				BC6FCA3B9F495F497A7CE4EDEAAA3552 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAFCA386DCF955FB139DCFE27E1D7F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReplaykitExt";
+			productName = "Pods-ReplaykitExt";
+			productReference = 9E1F0716D09F97966B9A3EAB04AC23F6 /* libPods-ReplaykitExt.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 561652E6152E05E42E86A81815FF916D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC16293362212257B16FCDBF2A4DA1B /* Pods-ReplaykitDemo */,
+				F83033F272E1C3D6C59286BAAF583375 /* Pods-ReplaykitExt */,
+				2B5BB9858E7E97882D2040FCBD65A5CC /* SKReplaykit-extension-shared */,
+				59F5043AAB27B92DE11CD846CB775E44 /* SKReplaykit-main-shared */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		087C3BCD39D0BF58C3027C01EC4142D1 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-extension-shared.modulemap",
+				"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-extension-shared-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SKReplaykit-extension-shared-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-extension-shared.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-extension-shared-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		3F762786EA508C3316D96AF375379580 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-main-shared.modulemap",
+				"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-main-shared-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SKReplaykit-main-shared-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-main-shared.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SKReplaykit/SKReplaykit-main-shared-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A191BEA9672DE94E7DC9748522D8D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD94D245EDF2325BF0738479D44D89EF /* Pods-ReplaykitExt-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A64BF3BF815ED2062FA3083C04E9CFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A214845ADFF197D3547FED670C983A /* Pods-ReplaykitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A197445886C448674BF841DC21AE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A07214825566ACF4091BD2098ADF282 /* SKReplaykit-main-shared-dummy.m in Sources */,
+				F9E53E6058F72A0D8293FD5793CED018 /* SKRMainProcessor.swift in Sources */,
+				8413F8E3B662C669F863C160A24AB6C8 /* SKRSharedInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F94018CB4F53916C274F83861307C608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7CA74F595B12B1F63C8A951EC23293 /* SKReplaykit-extension-shared-dummy.m in Sources */,
+				3CCED7ABF518E73805A4CAFC225E5A99 /* SKRExtensionProcessor.swift in Sources */,
+				A58035F92497F769C8AFD0B3D9AD8401 /* SKROutputHandler.swift in Sources */,
+				26CF0921D57200BB4FBB8E8FA3343A2D /* SKRSharedInfo.swift in Sources */,
+				F0A692418915613E404AADB813702DA3 /* SKRWriteFileHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBAFCA386DCF955FB139DCFE27E1D7F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKReplaykit-extension-shared";
+			target = 2B5BB9858E7E97882D2040FCBD65A5CC /* SKReplaykit-extension-shared */;
+			targetProxy = B2C246349AACD29AA9047F783254DD0C /* PBXContainerItemProxy */;
+		};
+		E9FDFAA5133A0E5D8EAB8E3B8D6B8454 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKReplaykit-main-shared";
+			target = 59F5043AAB27B92DE11CD846CB775E44 /* SKReplaykit-main-shared */;
+			targetProxy = EC630CDE1D57B9B4D05B2EDF5C058EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33702FA87AD795F12FFD43BC5F1351E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9FE539793ADEA0B82937F33C76CFBE /* Pods-ReplaykitExt.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReplaykitExt/Pods-ReplaykitExt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69D80AB4F555DB41A5D1E026A39710ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB527B207AE72E5C53942467F903EAB /* SKReplaykit-extension-shared.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKReplaykit-extension-shared/SKReplaykit-extension-shared-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Headers/Public/SKReplaykit/SKReplaykit-extension-shared.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SKReplaykit;
+				PRODUCT_NAME = "SKReplaykit-extension-shared";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A80255B8E3E7436193FE6D2D96C3BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F34160EE8D48AABB178247117088B20 /* Pods-ReplaykitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReplaykitDemo/Pods-ReplaykitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E539C894B4E3228770FC5C2BB14D13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E48D86AF9807CC53144CECF69C1A67F /* SKReplaykit-extension-shared.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKReplaykit-extension-shared/SKReplaykit-extension-shared-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Headers/Public/SKReplaykit/SKReplaykit-extension-shared.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SKReplaykit;
+				PRODUCT_NAME = "SKReplaykit-extension-shared";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AFDDC5091B28F91BE2205D5B2F663FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0662B2251DFFAD489E5BE819D6402D /* SKReplaykit-main-shared.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKReplaykit-main-shared/SKReplaykit-main-shared-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Headers/Public/SKReplaykit/SKReplaykit-main-shared.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SKReplaykit;
+				PRODUCT_NAME = "SKReplaykit-main-shared";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1872AB1AAFD8C13821D6695ABE483C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0518E2046C98DECE4FB8B0C1A4EAB75 /* Pods-ReplaykitExt.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReplaykitExt/Pods-ReplaykitExt.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD08D0EB190EF276A9057FDE8F6DEE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B188E3A7C4372F5E8CFB42DF0B44F6D /* SKReplaykit-main-shared.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SKReplaykit-main-shared/SKReplaykit-main-shared-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Headers/Public/SKReplaykit/SKReplaykit-main-shared.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SKReplaykit;
+				PRODUCT_NAME = "SKReplaykit-main-shared";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73B2BCE3169B18CE1D6C5E2C6811EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0CB9CC1AF127F6E43C334DEAE4BEDF3 /* Pods-ReplaykitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReplaykitDemo/Pods-ReplaykitDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082ADAF454D6ACE65CB46AEFEE6252D1 /* Build configuration list for PBXNativeTarget "SKReplaykit-main-shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFDDC5091B28F91BE2205D5B2F663FE /* Debug */,
+				AD08D0EB190EF276A9057FDE8F6DEE6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A5BE670E3019F01A9DC52D6D0E3B8AF /* Build configuration list for PBXNativeTarget "Pods-ReplaykitExt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33702FA87AD795F12FFD43BC5F1351E3 /* Debug */,
+				A1872AB1AAFD8C13821D6695ABE483C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17758A284456228303E28C6A1CF0E51 /* Build configuration list for PBXNativeTarget "Pods-ReplaykitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73B2BCE3169B18CE1D6C5E2C6811EC9 /* Debug */,
+				7A80255B8E3E7436193FE6D2D96C3BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25873CC00D246208F67554CD8A5E708 /* Build configuration list for PBXNativeTarget "SKReplaykit-extension-shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E539C894B4E3228770FC5C2BB14D13F /* Debug */,
+				69D80AB4F555DB41A5D1E026A39710ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
